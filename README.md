@@ -586,44 +586,6 @@ The observed activity is best classified as **controlled WMI/CIM process-executi
 - False-positive analysis
 - Evidence-based threat assessment
 
-## Repository Structure
-
-```text
-lab57-suspicious-management-instrumentation-investigation/
-|
-+-- README.md
-+-- investigation-notes.md
-+-- troubleshooting-notes.md
-+-- timeline.md
-|
-+-- evidence/
-|   +-- process-baseline.txt
-|   +-- process-query.txt
-|   +-- whoami-output.txt
-|
-+-- detections/
-|   +-- sigma/
-|   +-- wazuh/
-|
-+-- screenshots/
-|
-+-- scripts/
-|
-+-- reports/
-```
-
-## Lab Classification
-
-```text
-Lab:               57
-Category:          Windows DFIR / SOC Investigation
-Primary Technique: Windows Management Instrumentation
-Primary ATT&CK:    T1047
-Endpoint:          Windows 11 Pro
-Telemetry:         Sysmon + WMI-Activity + Wazuh
-Execution:         PowerShell + CIM + cmd.exe
-Assessment:        Controlled / No confirmed malicious activity
-```
 
 ## Disclaimer
 
